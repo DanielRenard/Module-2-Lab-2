@@ -4,6 +4,11 @@ article {
   border: 1px solid black;
 }
 
+.box {
+    margin: 5px;
+    padding: 5%;
+}
+
 .style-me1 {
   color: red;
 }
