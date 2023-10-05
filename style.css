@@ -1,17 +1,25 @@
 article {
-margin: 20px 0;
-padding: 20px;
-border: 1px solid black;
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid black;
 }
 
 .style-me1 {
-    color: red;
+  color: red;
 }
 
 #style-me2 {
-    color: blue;
+  color: blue;
 }
 
 #style-me2.style-me1 {
-    color: purple;
+  color: purple;
+}
+
+.my-descendants-are-styled p {
+  background-color: red;
+}
+
+.my-children-are-styled > p {
+  background-color: red;
 }
