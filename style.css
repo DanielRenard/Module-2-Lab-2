@@ -54,3 +54,42 @@ article {
 .my-children-are-styled > p {
   background-color: red;
 }
+
+.position-sticky {
+  position: sticky;
+  top: 0;
+}
+
+.text-style {
+  color: darkblue;
+  font-size: large;
+  line-height: 25px;
+  /* font-weight: 100; */
+  font-weight: bold;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  letter-spacing: 1vmax;
+  word-spacing: normal;
+  text-transform: capitalize;
+  text-decoration: line-through;
+}
+
+a:link {
+  color: plum;
+  font-size: 100%;
+  font-weight: bold;
+  text-decoration: none;
+  border: #4caf50;
+}
+
+a:visited {
+  color: yellowgreen;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.calc-style {
+  width: calc(100vw - 100px)
+}
