@@ -5,8 +5,34 @@ article {
 }
 
 .box {
-    margin: 5px;
-    padding: 5%;
+  margin: 5px 8px;
+  padding: 10%;
+  width: 50vw;
+  height: 10vh;
+  border-style: dotted;
+  border-color: green;
+  border-width: 2px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  text-overflow: ellipsis;
+  overflow: auto;
+  outline: #4caf50 solid 10px;
+  background-image: url(/images/fox2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.position-absolute {
+  position: absolute;
+  left: 2px;
+  right: 2px;
+  top: 2px;
+  bottom: 2px;
+  z-index: 3;
+}
+
+.position-relative {
+  position: relative;
 }
 
 .style-me1 {
