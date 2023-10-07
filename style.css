@@ -1,0 +1,95 @@
+article {
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.box {
+  margin: 5px 8px;
+  padding: 10%;
+  width: 50vw;
+  height: 10vh;
+  border-style: dotted;
+  border-color: green;
+  border-width: 2px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  text-overflow: ellipsis;
+  overflow: auto;
+  outline: #4caf50 solid 10px;
+  background-image: url(/images/fox2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.position-absolute {
+  position: absolute;
+  left: 2px;
+  right: 2px;
+  top: 2px;
+  bottom: 2px;
+  z-index: 3;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.style-me1 {
+  color: red;
+}
+
+#style-me2 {
+  color: blue;
+}
+
+#style-me2.style-me1 {
+  color: purple;
+}
+
+.my-descendants-are-styled p {
+  background-color: red;
+}
+
+.my-children-are-styled > p {
+  background-color: red;
+}
+
+.position-sticky {
+  position: sticky;
+  top: 0;
+}
+
+.text-style {
+  color: darkblue;
+  font-size: large;
+  line-height: 25px;
+  /* font-weight: 100; */
+  font-weight: bold;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  letter-spacing: 1vmax;
+  word-spacing: normal;
+  text-transform: capitalize;
+  text-decoration: line-through;
+}
+
+a:link {
+  color: plum;
+  font-size: 100%;
+  font-weight: bold;
+  text-decoration: none;
+  border: #4caf50;
+}
+
+a:visited {
+  color: yellowgreen;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.calc-style {
+  width: calc(100vw - 100px)
+}
